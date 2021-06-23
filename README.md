@@ -1,3 +1,6 @@
+Sistema experto realizado en react con la libreria https://github.com/BrainJS/brain.js
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
