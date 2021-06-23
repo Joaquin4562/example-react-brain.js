@@ -1,13 +1,114 @@
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(to right bottom,red, yellow);
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form-label {
+  font-size: 20px;
+  margin-top: 5px;
+  color: white;
+}
+.form-select {
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  border-radius: 1rem;
+}
+select, option {
+  background: red;
+  border: none;
+}
+.title {
+  color: white;
+}
+.sub-title {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+.sol {
+  position: fixed;
+  height: 250px;
+  width: 250px;
+  background-image: linear-gradient(to top,red, yellow);
+  bottom: 0;
+  right: 0;
+  margin-right: -50px;
+  margin-bottom: -80px;
+  border-radius: 10rem;
+  box-shadow: 0px 8px 30px red;
+  z-index: 2;
+}
+.agua {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(75, 152, 204);
+  bottom: 0;
+  border-radius: 3rem 0 0 0;
+  left: 0;
+}
+.btn-primary {
+  background-image: linear-gradient(to bottom left, rgb(255, 196, 0), rgb(255, 144, 17));
+  border: none;
+  font-weight: bold;
+  color: black;
+  width: 300px;
+}
+.palmera{
+  position: fixed;
+  bottom: 0;
+  left: 64%;
+  margin-bottom: -20px;
+  z-index: 1;
+  width: 240px;
+}
+.vacaciones {
+  font-size: 90px;
+  position: fixed;
+  bottom: 0;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: white;
+}
+.vacaciones-container {
+  transition: all 0.3s ease-in;
+}
+.isVacaciones {
+  opacity: 1;
+}
+.luna {
+  position: fixed;
+  height: 250px;
+  width: 250px;
+  background-image: linear-gradient(to top right,rgb(255, 255, 255), rgb(44, 44, 41));
+  bottom: 0;
+  right: 0;
+  margin-right: -50px;
+  margin-bottom: -80px;
+  border-radius: 10rem;
+  box-shadow: 0px 8px 30px rgb(255, 255, 255);
+  z-index: 2;
+}
+.agua-noche {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(2, 71, 117);
+  bottom: 0;
+  border-radius: 3rem 0 0 0;
+  left: 0;
+}
+.palmera-noche{
+  position: fixed;
+  bottom: 0;
+  filter: brightness(0.4);
+  left: 64%;
+  margin-bottom: -20px;
+  z-index: 1;
+  width: 240px;
 }
